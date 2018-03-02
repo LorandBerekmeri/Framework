@@ -1,0 +1,110 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7441307189,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.getDriver()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify the Top scroll",
+        "description": "",
+        "id": "my-feature;verify-the-top-scroll",
+        "after": [
+          {
+            "result": {
+              "duration": 181243828,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.stopDriver(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5362771291,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate on the page",
+            "match": {
+              "location": "CommonSteps.navigation()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 106864969,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Application is displayed",
+            "match": {
+              "location": "CommonSteps.applicationIsDisplayed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30830479,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I scroll to the bottom of the page",
+            "match": {
+              "location": "CommonSteps.iScrollToTheBottomOfThePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 677540466,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click the top scroll",
+            "match": {
+              "location": "CommonSteps.iClickTheTopScroll()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37157707,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "logo is displayed",
+            "match": {
+              "location": "CommonSteps.logoIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@cucumber-test"
+          }
+        ]
+      }
+    ],
+    "name": "My feature",
+    "description": "",
+    "id": "my-feature",
+    "keyword": "Feature",
+    "uri": "features/abc.feature"
+  }
+]

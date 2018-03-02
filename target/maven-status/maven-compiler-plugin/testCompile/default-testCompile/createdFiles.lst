@@ -1,0 +1,9 @@
+com\proiect\util\ActionsHelper.class
+com\proiect\pageobjects\MainScreen.class
+com\proiect\steps\Hooks.class
+com\proiect\steps\CommonSteps.class
+com\proiect\runner\Runner.class
+com\proiect\util\VerifyHelper.class
+com\proiect\util\ConfigHelper.class
+com\proiect\pageobjects\IFramePage.class
+com\proiect\util\ScreenshotHelper.class
