@@ -26,6 +26,7 @@ Maven must be installed for this to work. Maven can be downloaded from http://ma
 Apache Maven: https://maven.apache.org/
 
 3.	Download chromedriver.exe , geckodriver.exe  and IEDriverServer.exe (you can choose any of them), create a drivers directory in the project root and copy them there.
+
 Chrome driver: https://sites.google.com/a/chromium.org/chromedriver/
 Geckodriver/IEDriver: https://www.seleniumhq.org/download/
 Selenium drivers: https://sites.google.com/a/chromium.org/chromedriver/downloads
